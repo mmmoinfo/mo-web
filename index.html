@@ -1,0 +1,502 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Morgan Ritter Art & Poetry HTML Wonderland">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="wrench.ico" />
+  <link href="http://fonts.googleapis.com/css?family=Merienda" rel='stylesheet' type='text/css' />
+  <title>Morgan Ritter</title>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-90342507-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</head>
+
+<style type="text/css">
+  .Headers {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 4.5;
+    color: white;
+
+  }
+
+  body {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    background-image: url("the-female-key-icon2.gif");
+    background-repeat: repeat-xy;
+
+  }
+
+  .double {
+    line-height: 2;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: red;
+
+
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: brown;
+
+
+  }
+
+  a:hover {
+    text-transform: lowercase;
+    text-decoration: none;
+    color: green;
+
+
+  }
+
+  a:active {
+    text-decoration: none;
+    color: green;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px pink;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: brown;
+  }
+
+  nav {
+    right: 10px;
+    top: 5px;
+    color: white;
+    text-align: right;
+    text-shadow: 3px 3px 3px rgba(200, 205, 100, 1);
+  }
+
+  nav ul {
+    color: blue;
+    list-style-type: none;
+  }
+
+  #poem {
+    font-size: 14px;
+    font-family: Courier, Arial, sans-serif;
+    position: scroll;
+    color: white;
+    top: 5px;
+    left: 5px;
+  }
+
+
+  li {
+    color: red;
+    /* bullet color */
+  }
+
+  li span {
+    color: white;
+    /* text color */
+  }
+
+  #poem {
+    font-size: 10.5px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: fixed;
+    top: 5px;
+    color: white;
+    left: 5px;
+  }
+
+  #key {
+    background-image: url("the-female-key-icon2.gif");
+    background-repeat: repeat-x;
+    width: 300px;
+    position: relative;
+    top: 20%;
+    left: 60%;
+    top: 0;
+  }
+
+  #key a {
+    position: relative;
+    font-size: 20px;
+    color: #000;
+    text-shadow: 2px 2px 2px grey;
+  }
+
+  #key table,
+  #key th,
+  #key tr,
+  #key td {
+    border: none;
+  }
+
+  .cathand img {
+    position: fixed;
+    left: 0px;
+    bottom: 20px;
+  }
+
+
+
+  .drop-shadow {
+    position: relative;
+    float: right;
+    width: 20%;
+    padding: 1em;
+    background: #C6DEFF;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+  .drop-shadow2 {
+    position: relative;
+    float: right;
+    width: 20%;
+    padding: 1em;
+    background: black;
+    color: white;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+  .drop-shadow:before,
+  .drop-shadow:after {
+    content: "";
+    position: right;
+  }
+
+  .drop-shadow p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+  .rotated {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+
+  .rotated> :first-child:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eeffc6;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #overlay {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+  .notbold {
+    font-weight: normal
+  }
+
+  ​
+
+  /* Container holding the image and the text */
+  .container {
+    width: 600 px;
+    margin: 25px;
+    position: relative;
+  }
+
+  #container2 {
+    width: 600 px;
+    margin: 25px;
+    position: relative;
+  }
+
+  #navi,
+  #infoi {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #infoi {
+    z-index: 10;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+</style>
+</head>
+
+<body>
+  <marquee behavior="alternate"><em>W</em>elcome to my HTML <em>W</em>onderland</marquee>
+  <marquee behavior=""><em>N<em>o Templates & <em>N</em>o Standards</marquee><br>
+  <marquee behavior="alternate"><em>P</em>oetry of experimenting in <em>P</em>ublic</marquee><br>
+  <div style="left:70px;top:20px;">
+    Morgan Ritter<br>
+    Artist & Poet<br><br>
+    → <a href="mailto:mmmemo@protonmail.com">Email</a><br>
+    → <a href="Ritter_CV.pdf">Cv</a><br>
+    → <a href="mailto:mmmemo@protonmail.com?subject=E-BLAST%20SUBSCRIPTION&body=Hello%20Morgan.">Join E-bLaSt
+      List</a><br>
+    → <a href="https://www.instagram.com/raisin_consciousness/">@raisin_consciousness</a></div><br><br>
+  <br><br><br>
+  <div class="top-right">
+    <div class="drop-shadow lifted rotated background:#fffac6">Morgan Ritter is a Jewish conceptual artist and poet
+      whose interdisciplinary practice contains sculpture, installation, books, video, poetry, html, and performance.
+      Her work has been exhibited in a light bulb store and an orchard as well as venues such as Artists Space (NY),
+      Shanaynay (Paris), Portland Institute for Contemporary Art, The Whitney Biennial 2017 (NY), and MoMA (NY). Her
+      website is an ever-changing and inconclusive log of her work.</div><br><br><br>
+    <div class="drop-shadow lifted rotated background:#fffac6">→ <a href="cathouse.html">Cat House</a></div><br><br><br>
+    <div class="drop-shadow lifted rotated background:#fffac6">→ <a href="freecharger.html">New Book</a><br></div>
+    <br><br>
+    <div class="drop-shadow lifted rotated background:#fffac6">→ <a href="Venus.html">Venus Potato</a><br></div>
+  </div>
+  <br>
+  <div class="double" style="left:50px;">
+    LADYBUG MAZES CURRENTLY IN PRODUCTION...<br>
+    <img class="responsive" src="inventoryx4.jpg"><br><br>
+    MORE SOON...<br><br>
+    Activities...<br><br>
+    2020<br>
+    → <font color="brown">Sound.</font> <mark>NOW!</mark>, Conceptualizing & recording album demo, <em>THE
+      WHISTLEBLOWER'S RETREAT CENTER SOUNDTRACK.</em><br><br>
+    2019<br>
+    → <font color="purple">Residency.</font> <a href="https://mtlebanonresidency.org/">Mount Lebanon Residency</a>, New
+    Lebanon, New York.<br>
+    → <font color="orange">Poem.</font> <a href="https://www.moma.org/calendar/events/5497">"An evening with Bernadette
+      Mayer and Morgan Ritter"</a>, MoMA, New York.<br>
+    → <font color="pink">Publication.</font> Organized the republication of <a
+      href="https://en.wikipedia.org/wiki/Bernadette_Mayer">Bernadette Mayer</a>'s UTOPIA (United Artists, 1984). <a
+      href="mailto:mmmemo@protonmail.com">Email</a> if you'd like to learn more.<br>
+    → <font color="green">Exh. </font>Centrum Artist Residency exh., Port Townsend, Washington.<br>
+    → <font color="orange">Poem.</font> Reading within Nora Slade's exh. <a
+      href="http://potts.la/nora-slade-sesame-be-diamond-sensitive-2">SESAME BE DIAMOND SENSITIVE</a>, Potts Alhambra,
+    Los Angeles.<br>
+    → <font color="green">Screening.</font> <a href="https://sfartbookfair.com/">Video screening & Conversation</a> with
+    <a href="https://etaletc.com/">Et al.</a>, McEvoy Foundation, San Francisco.<br>
+    → <font color="orange">Poem.</font> <a href="https://sfartbookfair.com/">SF Art Book Fair</a>, c/o Et. al.,
+    Minnesota Street Projects, San Francisco.<br>
+    → <font color="orange">Poem.</font> <a href="https://nmwa.org/events/dc-art-book-fair-2019">DC Art Book Fair</a>,
+    c/o Conduit, National Museum of Women in the Arts, Washington DC.<br>
+    → <font color="orange">Poem.</font> <mark>NEW!</mark>, <a href="freecharger.html"><em>FREE CHARGER, Selected Writing
+        from 2007–2018</em></a>, Designed & published by Penny Press. <br>
+    → Press. Spencer wrote a thoughtful piece about my work here: <a href="http://psusocialpractice.org/journal/">The
+      Cat Houses of Morgan Ritter</a><br>
+    → <font color="blue">Grant.</font> Awarded Oregon Arts Commission's Career Opportunity Grant!<br>
+    → <font color="green">Exh.</font> Displaying my work within domestic spaces. <br>
+    → Dreams.<br>
+    <br>
+    2018<br>
+    → <font color="green">Exh.</font> <a href="Xfinity.html">Xfinity Kitten</a>, SUC, Portland.<br>
+    → <font color="green">Exh.</font> <a href="craigslist.html">The Cat House Settlement</a> at <a
+      href="https://veronica-projectspace.com/morgan-ritter">Veronica</a>, Seattle.<br>
+    → <font color="green">Exh.</font> <a
+      href="https://etaletc.com/opening-a-can-dana-dart-mclean-johanna-jackson-morgan-ritter">Opening a can</a>, with
+    Dana Dart-McLean and Johanna Jackson, Et al. etc., San Francisco.<br>
+    → <font color="orange">Poem.</font> In <a
+      href="https://www.instagram.com/p/BeB2SxfngdP/?taken-by=raisin_consciousness">APbPLaESr</a>, New York.<br>
+    → Dreams.<br>
+    <br>
+    2017<br>
+    → <font color="orange">Poem.</font> <a href="Yin-Yang.pdf">Yin-yang Non-Fotography</a> in <a
+      href="https://cal.pnca.edu/e/2127">Projects for the Page</a> at Pacific Northwest College of Art, Portland.<br>
+    → <font color="orange">Poem.</font> 2013–2017,<a href="isntshe.html"> iSn't She</a><br>
+    → <font color="orange">Poem.</font> <a href="Poet.html">Reading</a> at Susan Cianciolo's RUN PRAYER, RUN CAFÉ, RUN
+    LIBRARY, Bridget Donahue Gallery, New York.<br>
+    → <font color="orange">Poem.</font> Meta Touch Town at <a href="https://www.pictureroom.shop/">Picture Room</a>'s
+    Multiples Sale, New York.<br>
+    → Art Fair. <a href="http://www.outofsight.space/">Out of Sight 2017</a>, Seattle.<br>
+    → <font color="green">Exh.</font> <a href="http://www.mmmo.info/isntshemp3.html">Mp3</a> in HER EYES ARE LIKE DOVES
+    BESIDE STREAMS OF WATER at <a href="http://adamsandollman.com/">Adams and Ollman</a>, Portland.<br>
+    → <font color="blue">Award.</font> Nominated for The Henry Art Gallery's Brink Award.<br>
+    → <font color="orange">Poem.</font> <a href="isntshepix.html">Readings</a> at Susan Cianciolo's <a
+      href="http://whitney.org/Events/RunRestaurantUntitled">Run Restaurant Untitled</a> at The Whitney Biennial, New
+    York. <br>
+    → Dreams.<br>
+    <br>
+    2016<br>
+    → <font color="green">Exh.</font> <a href="Groupshow.html">Group Show</a> at Washington State Acupuncture & Chinese
+    Medicine Center, Seattle.<br>
+    → <font color="blue">Grant.</font> Nominated for the Joan Mitchell Foundation's Emerging Artist Grant.<br>
+    → <font color="green">Exh.</font> <a href="Windows.html">3rd Annual Window Exhibition: uo!ʇɐu!ƃɐɯ! ɟo pןɹoʍ
+      s’uǝɹpן!ɥɔ ǝɥʇ ɹoɟ s! ǝʇɐǝɹɔ noʎ ƃu!ɥʇʎɹǝʌe</a>, <a
+      href="https://www.yelp.com/biz/sunlan-lighting-portland-3">Sunlan Lighting</a>, Portland. <br>
+    → <font color="green">Exh.</font> <a href="Progenitor.html">Part 1: Progenitor Cat Houses</a> at <a
+      href="http://themiddler.com/shows/morgan-ritter">The Middler</a>, New York.<br>
+    → <font color="orange">Poem.</font> Performance at <a href="http://artistsspace.org/">Artists Space</a>, New York.
+    <br>
+    → <font color="blue">Grant.</font> Awarded a Foundation for Contemporary Art Emergency Grant <br>
+    → <font color="green">Exh.</font> <a href="Holding.html">Holding a Cup on a Boar</a>, <a
+      href="http://www.rongwrong.org/">RONGWRONG</a>, Amsterdam.<br>
+    → <font color="orange">Poem.</font> Reading at <a href="http://www.shanaynay.fr/">Shanaynay</a>, Paris.<br>
+    → <font color="blue">Grant.</font> Awarded from Regional Arts and Culture Council.<br>
+    → <font color="orange">Poem.</font> Denim Premonition, Apres Upfor (Window Video), Upfor Contemporary, Portland.
+    <br>
+    → Dreams.<br>
+    <br>
+    Earlier...<br>
+    → <font color="green">Exh.</font> 2015, <a href="commonplace.html">COMMONPLACE</a>, with Karl Larsson, Portland
+    Institute of Contemporary Art, Portland.<br>
+    → <font color="green">Exh.</font> 2014, <a href="Becomingversatilesmok.html">Becoming Versatile Smok</a>, <a
+      href="http://www.ditchprojects.com/index.php?/events/smok/">Ditch Projects</a>, Springfield.<br>
+    → <font color="green">Exh.</font> 2012, <a href="understandingwitchesnow.html">Understanding Witches Now</a>,
+    Portland Institute of Contemporary Art, Portland.<br>
+    → Dreams.</span>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
+
+  <div class="container">
+    <div class="center">
+      <a href="craigslist.html"><img class="responsive" border="1px" border-color="red"
+          src="pallet.jpg"></a><br><br><br>
+      <img class="responsive" border="1px" border-color="red" src="MoRead.JPG"><br><br><br>
+      <a href="freecharger.html"><img width="600" class="responsive" border="1px" border-color="red"
+          src="bookspine.jpg"><br>
+        <img width="600" class="responsive" border="1px" border-color="red" src="commend.jpg"></a><mark><em>NEW BOOK,
+          FREE CHARGER</em></mark><br><br><br><br></div>
+  </div>
+
+  <a href="artas.html"><img class="responsive" src="Art13.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art1.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art2.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art3.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art4.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art5.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art6.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art7.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art8.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art9.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art10.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art11.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art12.png"></a><br>
+  <a href="artas.html"><img class="responsive" src="Art14.png"></a><br>
+  <br><br><br><br><br><br><br><br>
+
+  <iframe
+    src="http://www.youtube.com/embed/hNPDoEX4FH8?autoplay=1&showinfo=0&rel=0&iv_load_policy=3&theme=light&color=white"
+    width="560" height="315" frameborder="0"></iframe><br><br></div>
+
+  <div align="left"><img width="500" class="responsive" border="1px" src="Purrcy.jpg"><br>
+    <div align="center"><img class="responsive" border="1px" border-color="red" width=750 src="MoRit10con.jpg" /></div>
+    <br><br><br><br>
+    <br><br><a href="craigslist.html">
+      <div align="center"><img class="responsive" border="1px" border-color="red" src="Settlement.jpg" />
+    </a>
+  </div><br><br><br><br>
+  <img width=1000 class="responsive" border="1px" border-color="red" src="5Soaps.jpg" /><br><br><br><br>
+  <img width=1000 class="responsive" border="1px" border-color="red" src="LittleBlueMan.jpg" /><br><br><br><br>
+  <div align="left"
+    style="height:120px;width:120px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;"> <img
+      border="1px" border-color="red" src="clouds.jpg" /> <a href="http://www.mistfortune.com/fortune2.php"> lucky link
+    </a></div><br><br><br><br>
+  <img width="500" class="responsive" border="1px" border-color="red" src="shapeshigif.gif" />
+  <img width="500" class="responsive" border="1px" border-color="#FF4500" src="http://mmmo.info/potato_slow.gif"><br>
+  </audio><br>
+  <br>
+  <br>
+
+  → <a href="friendslinks.html">Friends</a>
+
+  <br>
+  <style type="text/css">
+    body {
+      cursor: url(http://www.rw-designer.com/cursor-extern.php?id=13733);
+    }
+  </style>
+
+
+</body>
+
+</html>
